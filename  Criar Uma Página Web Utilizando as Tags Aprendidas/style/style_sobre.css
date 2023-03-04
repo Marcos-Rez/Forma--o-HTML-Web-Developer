@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(200, 218, 233);
+}
+header{
+    background-color: #fcff64;
+    box-shadow: 3px 3px 3px #fcff64;
+    position: fixed;
+    width: 100vw;
+}
+#container_cabecalho{
+    display: flex;
+    background-color: rgb(47, 154, 255);
+    box-shadow: 1px 1px 3px  rgb(47, 154, 255);
+    min-width: 100%;
+    min-height: 5vh;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+ 
+}
+#container_cabecalho a{
+    color: whitesmoke;
+}
+#container_titulo{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   max-height: 23vh;
+   margin-top: 2vh;
+}
+
+#titulo_header{
+    max-width: 50vw;
+    margin-left: 1.2vw;
+    margin-top: 5vh;
+    padding-bottom: 1vh;
+
+}
+#img_header{
+    margin-top: 4.5vh;
+    margin-left: 70px;
+}
+#img_header1{
+    max-width: 4.7vw;
+    min-width: 4.7vw;
+}
+#img1{
+    max-width: 15vw;
+}
+
+#sobre_projetos{
+    padding-top: 30vh;
+}
+main{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+main h1{
+    font-size: 2rem;
+    padding: 2vh;
+    color: rgb(27, 27, 27);
+}
+main p {
+    font-size: 1.5rem;
+    padding: 2vh;
+    color: black;
+}
+
+@media(max-width: 1300px){
+    #titulo_header > h1{
+        font-size: 1.5rem;
+    }
+    #img_header1{
+        min-width: 7vw;
+    }
+}
+
+@media(max-width: 1014px){
+    #titulo_header > h1{
+        font-size: 1.3rem;
+    }
+    #img_header1{
+        min-width: 7vw;
+    }
+}
+
+@media(max-width: 900px){
+    #titulo_header > h1{
+        font-size: 1.3rem;
+    }
+    #img_header1{
+        min-width: 7vw;
+    }
+}
+
+@media(max-width: 858px){
+    #titulo_header > h1{
+        font-size: 1.2rem;
+    }
+    #img_header > #img_header1{
+        min-width: 10vw;
+    }
+}
+
+@media(max-width: 578px){
+    #container_cabecalho img{
+        max-width: 13vw;
+    }
+    #container_cabecalho a{
+        font-size: 0.8rem;
+    }
+    #titulo_header > h1{
+        font-size: 0.9rem;
+    }
+    #img_header > #img_header1{
+        min-width: 10vw;
+    }
+    #sobre_projetos h1 {
+        font-size: 1rem;
+    }
+    #sobre_projetos p {
+        font-size: 1rem;
+    }
+}

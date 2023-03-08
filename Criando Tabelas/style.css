@@ -1,0 +1,24 @@
+table{
+    margin-top: 5vh;
+    border:  1px gray solid;
+    box-shadow: 12px 14px 6px 5px rgba(0, 0, 0, 0.24);
+
+}
+
+table thead th{
+    background-color: black;
+    color: aliceblue;
+}
+
+table tfoot td{
+    background-color: cornflowerblue;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: rgb(243, 232, 218);
+}
+
+table tbody tr:hover td{
+    background-color: rgba(100, 97, 92, 0.315);
+    cursor: pointer;
+}

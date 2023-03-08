@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-gap: 0;
+    
+}
+.header{
+    display: flex;
+    background-color: whitesmoke;
+    height: 100vh;
+    grid-column: 2/3;
+}
+.header h1{
+    
+    margin-left: 3.4vw;
+    font-size: 2rem;
+    color: rgb(209, 7, 7);
+    margin-top: 2.5vh;
+    height: 7vh;
+    max-width: 70vw;
+
+}
+.logo-hospital{
+    max-width: 20vw;
+    max-height: 10vh;
+    margin-left: 4vw;
+    padding-top: 0.5vh;
+   
+}
+.menu{
+    background-color: whitesmoke;
+    height: 100vh;
+    max-width: 19vw;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    position: fixed;
+}
+
+.menu ul li:hover{
+    padding: 0.5vw;
+    font-size: 1.24rem;
+}
+.main{
+    background-color: whitesmoke;
+    height: 385vh;
+    grid-column: 2/2;
+    grid-row: 2/2;
+
+}
+
+
+.logo-1-menu{
+    max-width: 12vw;
+    margin: 0 0 0 1.1vw;
+}
+
+.menu ul li a{
+    margin: 2vh 0 0 0.6vw;
+    color: rgb(209, 7, 7);
+    display: inline-block;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+.hr-menu{
+    margin-left: 2vw;
+    margin-right: 1vw;
+    height: -2px;
+}
+.logo-2-menu{
+    max-width: 12vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: whitesmoke;
+
+    margin: 0 0 0 1.1vw;
+}
+.menu > ul > li > a > .logo-3-menu{
+    max-width: 1vw;
+    max-height: 1.8vh;
+    cursor: none;
+}
+
+.sobre{
+    display: flex;
+   padding-bottom: 10vh;
+}
+.main h1{
+    margin-left: 5vw;
+    margin-top: 5vh;
+    color: rgb(80, 79, 79);
+}
+
+.container-paragrafo-sobre1{
+    max-width: 34vw;
+    margin-left: 5vw;
+    margin-right: 4vw;
+}
+.container-paragrafo-sobre1 p{
+    font-size: 1.4rem;
+    text-align: justify;
+    padding-top: 5vh;
+    color: rgb(80, 79, 79);
+}
+
+.container-img-sobre1{
+    max-width: 30vw;
+}
+.img-sobre1{
+    max-width: 35vw;
+    margin-top: 5.5vh;
+}
+
+.clicaMedica{
+    display: flex;
+}
+main .h1-especialidade{
+    margin: 5vh 32vw;
+    color: rgb(80, 79, 79);
+}
+.container-paragrafo-clinicaMedica1{
+    max-width: 34vw;
+    margin-left: 8.5vw;
+}
+.container-paragrafo-clinicaMedica1 p {
+    font-size: 1.4rem;
+    text-align: justify;
+    padding-top: 5vh;
+    color: rgb(80, 79, 79);
+}
+.container-img-clicaMedica1{
+    max-width: 30vw;
+    margin-left: 5vw;
+  
+}
+.clicaMedica-img1{
+    max-width: 35vw;
+    margin-top: 5.5vh;
+    margin-bottom: 9vh;
+}
+.cirurgiaGeral{
+    display: flex;
+}
+.container-paragrafo-cirurgiaGeral{
+    max-width: 34vw;
+    margin-left: 5vw;
+    margin-right: 4vw;
+}
+.container-paragrafo-cirurgiaGeral p{
+    font-size: 1.4rem;
+    text-align: justify;
+    padding-top: 5vh;
+    color: rgb(80, 79, 79);
+}
+.container-img-cirurgiaGeral1{
+    max-width: 30vw;
+}
+.cirurgiaGeral-img1{
+    max-width: 35vw;
+    margin-top: 5.5vh;
+    margin-bottom: 5.5vh;
+}
+
+/**-------------------------------------------------------------------------------------------*/
+
+.footer{
+    background-color: whitesmoke;
+    max-height: 50vh;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-top: 295vh;
+    display: flex;
+    color: rgb(80, 79, 79);
+}
+.convenios{
+    display: block;
+    padding-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+.contato{
+    padding-top: 3vh;
+    margin-left: 0vw;
+}
+
+.endereco-footer{
+    padding-top: 3vh;
+    margin-left: 1.5vw;
+}
+.endereco-footer .hr-footer{
+    max-width: 8.2vw;
+}
+.iframe-footer{
+    max-width: 24vw;
+    max-height: 27vh;
+    padding-bottom: 2vh;
+}
+.hr-footer{
+    max-width: 9vw;
+}
+.contato .hr-footer{
+    max-width: 7.7vw;
+}
+.mapa-footer-1{
+    padding-top: 3vh;
+    margin-left: 2vw;
+}
